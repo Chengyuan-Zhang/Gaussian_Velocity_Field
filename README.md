@@ -1,11 +1,13 @@
 # Gaussian Velocity Field (GVF)
 
 ![Alt Text](Figs/GVF_highD_demo.gif)
-This repo provides a basic implementation of Gaussian Velocity Field.
+This repo provides a rudimentary implementation of Gaussian Velocity Field.
 
 ## How to run
 
-To visualize the result: ```python visualization.py```
+To look into the details of constructing GVF: check ```GVF.py```;
+
+To visualize the result: ```python visualization.py```;
 
 <center>
   <img src="./Figs/GVF_static_demo.png" width="85%" />
@@ -46,6 +48,15 @@ If you find the codes or paper useful for your research, please cite our paper:
   year={2019},
   organization={IEEE}
 }
+
+@inproceedings{wang2020learning,
+  title={Learning Representations for Multi-Vehicle Spatiotemporal Interactions with Semi-Stochastic Potential Fields},
+  author={Wang, Wenshuo and Zhang, Chengyuan and Wang, Pin and Chan, Ching-Yao},
+  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
+  pages={1935--1940},
+  year={2020},
+  organization={IEEE}
+}
 ```
 
 ## Contact
@@ -53,3 +64,7 @@ If you find the codes or paper useful for your research, please cite our paper:
 **If you have any questions please feel free to contact
 us:  [Chengyuan Zhang](https://chengyuanzhang.wixsite.com/home) (<enzozcy@gmail.com>)
 and [Wenshuo Wang](http://wenshuow.com/) (<wwsbit@gmail.com>).**
+
+## Future updates
+
+We will provide more demos to construct GVF on the highD dataset soon.
