@@ -61,10 +61,3 @@ def construct_GVF_for_highD(others_info, ego_info):
                                  length_scale=[Config.sigma_x, Config.sigma_y])
         pass
     return VXX.reshape(Config.X_mesh.shape), VYY.reshape(Config.Y_mesh.shape)
-
-
-if __name__ == '__main__':
-    x = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
-    y = np.array([[3, 4], [3, 4], [3, 4]])
-
-    print("RBF_kernel:", RBF_kernel(x, y, length_scale=[15, 1.5]))

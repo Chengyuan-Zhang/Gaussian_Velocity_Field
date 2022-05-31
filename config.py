@@ -2,8 +2,8 @@ import numpy as np
 
 
 class Config:
-    # HighD preprocessing
-    skip_frames = 10
+    # # HighD preprocessing
+    # skip_frames = 10
 
     # field observation range
     obs_range_ahead = 50

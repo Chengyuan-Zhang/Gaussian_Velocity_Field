@@ -10,20 +10,28 @@ def GVF_static_demo():
     plt.rcParams["font.family"] = "Times New Roman"
     matplotlib.rcParams['font.size'] = 12
     matplotlib.rcParams['font.family'] = 'Times New Roman'
-    v_ego = 20
-    v_other0 = 30
+
+    # Try to play with these parameters to see how each may change the velocity field
+    vx_ego = 20
+    vy_ego = 0
+
+    vx_other0 = 30
+    vy_other0 = -6
     x_other0 = 25
     y_other0 = 4
-    v_other1 = 10
+
+    vx_other1 = 10
+    vy_other1 = 3
     x_other1 = 15
     y_other1 = -4
+
     ego_info = {'id': 0,
                 'frame': 0,
                 'bbox': np.transpose(np.array(
                     [0 - 0.5 * Config.car_width, 0 - 0.5 * Config.car_height,
                      Config.car_width, Config.car_height])),
-                'xVelocity': v_ego,
-                'yVelocity': 0,
+                'xVelocity': vx_ego,
+                'yVelocity': vy_ego,
                 'xAcceleration': 0.5,
                 'yAcceleration': 0
                 }
@@ -33,8 +41,8 @@ def GVF_static_demo():
                       'bbox': np.transpose(np.array([x_other0 - 0.5 * Config.car_width,
                                                      y_other0 - 0.5 * Config.car_height,
                                                      Config.car_width, Config.car_height])),
-                      'xVelocity': v_other0,
-                      'yVelocity': -6,
+                      'xVelocity': vx_other0,
+                      'yVelocity': vy_other0,
                       'xAcceleration': 1,
                       'yAcceleration': 0
                       }
@@ -43,8 +51,8 @@ def GVF_static_demo():
                       'bbox': np.transpose(np.array([x_other1 - 0.5 * Config.car_width,
                                                      y_other1 - 0.5 * Config.car_height,
                                                      Config.car_width, Config.car_height])),
-                      'xVelocity': v_other1,
-                      'yVelocity': 3,
+                      'xVelocity': vx_other1,
+                      'yVelocity': vy_other1,
                       'xAcceleration': 1,
                       'yAcceleration': 0
                       }
