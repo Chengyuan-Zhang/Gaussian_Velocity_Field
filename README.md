@@ -1,7 +1,7 @@
 # Gaussian Velocity Field (GVF)
 
 ![Alt Text](Figs/GVF_highD_demo.gif)
-This repo provides a rudimentary implementation of Gaussian Velocity Field.
+###This repo provides a rudimentary implementation of Gaussian Velocity Field.
 
 ## How to run
 
