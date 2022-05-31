@@ -3,7 +3,7 @@
 ![Alt Text](Figs/GVF_highD_demo.gif)
 This repo provides a basic implementation of Gaussian Velocity Field.
 
-### How to run
+## How to run
 
 To visualize the result: ```python visualization.py```
 
@@ -11,13 +11,16 @@ To visualize the result: ```python visualization.py```
   <img src="./Figs/GVF_static_demo.png" width="85%" />
 </center>
 
-### Note
+## Note
 
-- The hyperparameters for the Gaussian Velocity Field are manually defined in this repo. One can either set the
+- The hyperparameters for Gaussian Velocity Field are manually defined in this repo. One can either set the
   hyperparameters manually according to the specific scenarios or learn from the data.
+- GVF in this repo is constructed based on the relative velocity, one can easily base this model on the absolute
+  velocity.
 
-### Paper
+## Paper
 
+- **Project website: [[web](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].**
 - **Access our paper
   via: [[arXiv](https://arxiv.org/pdf/2003.00759v2.pdf)] or [[paper](https://ieeexplore.ieee.org/document/9357407)].**
 - **Watch the demos
@@ -45,7 +48,7 @@ If you find the codes or paper useful for your research, please cite our paper:
 }
 ```
 
-### Contact
+## Contact
 
 **If you have any questions please feel free to contact
 us:  [Chengyuan Zhang](https://chengyuanzhang.wixsite.com/home) (<enzozcy@gmail.com>)
