@@ -27,10 +27,12 @@ def posterior(X, Xtest, y, length_scale=[15, 1.5]):
 
 
 def construct_GVF(P, Ptest, V, length_scale=[15, 1.5]):
-    # The notations follow those defined in our paper, where P = [X, Y] and V = [VX, VY] represents
+    # The notations follow those defined in our paper[1], where P = [X, Y] and V = [VX, VY] represents
     # the relative positions and velocities of other vehicles to the ego vehicle, accordingly;
     # Ptest represents the test point positions that we want to evaluate to construct GVF;
-
+    # [1] Zhang, C., Zhu, J., Wang, W., & Xi, J. (2021). Spatiotemporal learning of multivehicle
+    # interaction patterns in lane-change scenarios. IEEE Transactions on Intelligent Transportation
+    # Systems.
     VXX, _ = posterior(P, Ptest, V[:, 0], length_scale)
     VYY, _ = posterior(P, Ptest, V[:, 1], length_scale)
     return VXX, VYY

@@ -1,7 +1,8 @@
 # Gaussian Velocity Field (GVF)
 
 ![Alt Text](Figs/GVF_highD_demo.gif)
-###This repo provides a rudimentary implementation of Gaussian Velocity Field.
+
+### This repo provides a rudimentary implementation of Gaussian Velocity Field.
 
 ## How to run
 
@@ -20,7 +21,7 @@ To visualize the result: ```python visualization.py```;
 - GVF in this repo is constructed based on the relative velocity, one can easily base this model on the absolute
   velocity.
 
-## Paper
+## Publications
 
 - **Project website: [[web](https://chengyuan-zhang.github.io/Multivehicle-Interaction/)].**
 - **Access our paper
