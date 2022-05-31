@@ -3,17 +3,13 @@
 ![Alt Text](Figs/GVF_highD_demo.gif)
 This repo provides a basic implementation of Gaussian Velocity Field.
 
-run to visualize the result```python visualization.py```
+### How to run
+
+To visualize the result: ```python visualization.py```
 
 <center>
   <img src="./Figs/GVF_static_demo.png" width="85%" />
 </center>
-
-- **Access our paper
-  via: [[arXiv](https://arxiv.org/pdf/2003.00759v2.pdf)] or [[paper](https://ieeexplore.ieee.org/document/9357407)].**
-- **Watch the demos
-  via: [[YouTube](https://youtu.be/AcyDn43hb7I)] or [[Bilibili](https://www.bilibili.com/video/BV1BD4y1m7VL/)].**
-- **Also check the supplements via: [[Spatiotemporal_Appendix.pdf](./files/Spatiotemporal_Appendix.pdf)].**
 
 ### Note
 
@@ -21,6 +17,12 @@ run to visualize the result```python visualization.py```
   hyperparameters manually according to the specific scenarios or learn from the data.
 
 ### Paper
+
+- **Access our paper
+  via: [[arXiv](https://arxiv.org/pdf/2003.00759v2.pdf)] or [[paper](https://ieeexplore.ieee.org/document/9357407)].**
+- **Watch the demos
+  via: [[YouTube](https://youtu.be/AcyDn43hb7I)] or [[Bilibili](https://www.bilibili.com/video/BV1BD4y1m7VL/)].**
+- **Also check the supplements via: [[Spatiotemporal_Appendix.pdf](./files/Spatiotemporal_Appendix.pdf)].**
 
 If you find the codes or paper useful for your research, please cite our paper:
 
