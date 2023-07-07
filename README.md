@@ -3,6 +3,10 @@
 ![Alt Text](Figs/GVF_highD_demo.gif)
 
 ### This repo provides a rudimentary implementation of Gaussian Velocity Field.
+The Gaussian velocity field (GVF) in the paper "Spatiotemporal learning of multivehicle interaction patterns in lane-change scenarios" is a mathematical model used to represent the interactions between multiple vehicles during lane-change scenarios. The GVF is defined in a region of interest (ROI) around the ego vehicle (the vehicle of interest), which is a rectangular area symmetrically centered on the ego vehicle. The ROI is specified by three distances to the center of the ego vehicle: the front distance (d_front), the behind distance (d_behind), and the left/right distances (d_side).
+
+The GVF is constructed over grid points in the ROI by meshing the width and length with intervals of 1 m and 5 m. A tensor with a size of 13 x 17 x 2 describes the GVF of each frame, where 2 represents the velocity components in the x and y directions.
+
 
 ## How to run
 
